@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+h1, h2, h3, h4, h5{
+    font-weight: 700;
+}
+/* =-=-=-=-=-=-=-= Header =-=-=-=-=-=-=-=-= */
+header{
+    background-image: url('/images/banner/banner2.png');
+    background-repeat: no-repeat;
+    background-position: cover;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 120px 20px 100px;
+    align-items: center;
+}
+.logo h1{
+    color: #16ad3c;
+    font-size: 45px;
+    font-weight: 800;
+}
+.logo span{
+    color: rgb(206, 55, 55);
+}
+.menu .btn{
+    padding: 10px 25px;
+}
+.menu ul{
+    display: flex;
+    align-items: center;
+}
+.menu ul li{
+    margin-right: 20px;
+}
+.menu ul li a{
+    text-transform: uppercase;
+    background-color: brown;
+    color: #FFFFFF;
+    padding: 8px 15px;
+    border-radius: 20px 30px;
+    border: 0;
+}
+/* =-=-=-=-=-=-=-= Banner =-=-=-=-=-=-=-=-= */
+.banner{
+   text-align: right;
+   padding: 80px 130px 285px 845px;
+}
+.banner h2{
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 76px;
+    color: #151414;
+}
+.banner-description{
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+.btn{
+    color: #FFFFFF;
+    font-size: 20px;
+    line-height: 23px;
+    padding: 20px 25px;
+    background: #F15B22;
+    border-radius: 5px;
+    border: 0;
+}
+/* =-=-=-=-=-=-=-= future section =-=-=-=-=-=-=-=-= */
+.future-section{
+    max-width: 1072px;
+    margin: 80px 200px 100px 208px;
+}
+.future-container{
+    display: flex;
+    align-items: center;
+    gap: 87px;
+}
+.futute-image{
+    width: 569px;
+    height: 723.3px;
+}
+.futute-image img{
+    width: 100%;
+}
+.future-text-aria{
+    width: 416px;
+    height: 400px;
+}
+.future-title{
+    font-size: 30px;
+    line-height: 47px;
+    color: #151414;
+    margin-bottom: 24px;
+}
+.future-description{
+    color: #444343;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 15px;
+}
+.future-text-aria li{
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+}
+.future-text-aria i{
+    color: #16D887;
+}
+/* =-=-=-=-=-=-=-= my plan section =-=-=-=-=-=-=-=-= */
+.my-plans-section{
+    max-width: 1142px;
+    margin: 0 229px 100px 230px;
+}
+.section-title{
+    color: #151414;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.skil-container{
+    display: flex;
+    justify-content: space-between;
+}
+.skil{
+    text-align: center;
+}
+.skil-title{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 35px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+.skil-description{
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    color: #737272;
+}
