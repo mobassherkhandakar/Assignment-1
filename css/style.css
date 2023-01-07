@@ -187,6 +187,9 @@ footer .container{
     font-size: 25px;
     line-height: 29px;
 }
+.social-icon img{
+    padding-left: 10px;
+}
 form .btn1{
     display: block;
     margin: 16px 0;
@@ -194,6 +197,9 @@ form .btn1{
     color: #F15B22;
     background-color: #F8F8F8;
     border-radius: 8px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
 } 
 form input{
     padding: 21px 158px 21px 21px;
