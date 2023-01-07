@@ -152,3 +152,52 @@ header{
     line-height: 29px;
     color: #737272;
 }
+/* =-=-=-=-=-=-=-= future section =-=-=-=-=-=-=-=-= */
+ .footer-section{
+    background-color:#151414;
+}
+footer .container{
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    width: 70%;
+    justify-content: space-between;
+    padding: 100px 0;
+}
+.footer-title{
+    color: #F8F8F8;
+    font-size: 45px;
+    line-height: 53px;
+    margin-bottom: 16px;
+}
+.footer-description{
+    margin-bottom: 16px;
+}
+.footer-left p{
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 26px;
+    width: 485px;
+}
+.social-icon{
+    margin-top: 32px;
+}
+.footer-right h3{
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 29px;
+}
+form .btn1{
+    display: block;
+    margin: 16px 0;
+    padding: 20px 35px;
+    color: #F15B22;
+    background-color: #F8F8F8;
+    border-radius: 8px;
+} 
+form input{
+    padding: 21px 158px 21px 21px;
+    border-radius: 8px;
+    background-color: transparent;
+    border: 1px solid #fff;
+}
